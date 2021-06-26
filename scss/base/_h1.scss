@@ -1,0 +1,9 @@
+@mixin h1 ($font-family) {
+    font-family: $font-family;
+  padding: 40px 0;
+  color: rgb(17, 39, 39);
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 4.5em;
+  font-weight: bold;
+}

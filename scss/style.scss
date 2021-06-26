@@ -1,0 +1,47 @@
+@import "base/background.scss";
+@import "base/fonts";
+@import "components/video";
+@import "base/h1";
+@import "components/productos";
+@import "components/footer";
+@import "components/pNosotros";
+@import "base/maps";
+
+body {
+    background-image: $bg-img;
+}
+
+h1 {
+    @include h1(Dancing Script);
+}
+
+
+.video {
+    @extend %video
+}
+
+h2{
+    @include h2(roboto)
+}
+
+.pNosotros {
+    @include condicion(roboto)
+}
+
+.card-title{
+    
+        color: map-get($maps, p);
+        font-weight: map-get($maps , font-weight );
+      
+        }
+    
+    .card-text{
+        font-size: map-get($maps, font-size );
+        font-weight: map-get($maps , font-weight);
+     }
+     
+     @media only screen and (max-width: 968px) {
+        footer {
+            display: none
+        }
+    }

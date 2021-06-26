@@ -1,0 +1,11 @@
+@mixin condicion($font) {
+    font-family: $font;
+
+    @if $font == roboto {
+        color:brown;
+    } @else {
+        color:  blue;
+    }
+    
+}
+
