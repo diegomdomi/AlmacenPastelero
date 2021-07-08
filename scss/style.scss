@@ -15,7 +15,9 @@ h1 {
     @include h1(Dancing Script);
 }
 
-
+.vk{
+    background-image: url(../img/IMG_2455-Alfajor-Chocolate-Puro2.jpg);
+}
 .video {
     @extend %video
 }
@@ -24,9 +26,7 @@ h2{
     @include h2(roboto)
 }
 
-.pNosotros {
-    @include condicion(roboto)
-}
+
 
 .card-title{
     
