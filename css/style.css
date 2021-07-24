@@ -19,45 +19,7 @@ footer {
   background-image: linear-gradient(to right, #c27e7e, #d1d1bb);
 }
 
-/* 
- .footerGrid {
 
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 2fr;
-    grid-template-rows: 1fr;
-
-    .ubicacion h2 {
-        text-align: -webkit-match-parent;
-        margin-top: 14px;
-        padding-top: 10px;
-        font-size: 19px;
-        text-decoration: underline;
-        letter-spacing: 1px;
-      }
-
-      .ubicacion p {
-        color: rgb(71, 69, 69);
-        font-size: 17px;
-
-      }
-      .contacto h3 {
-        padding-top: 20px;
-        font-size: 19px;
-        text-decoration: underline;
-        letter-spacing: 1px;
-        color: #794141
-      }
-
-      .contacto p {
-        color: rgb(71, 69, 69);
-        font-size: 17px;
-      }
-      .social {
-
-        margin-top: 25px;
-        margin-left: 60%;
-        margin-bottom: 40px;
-*/
 .col-3 img {
   height: 30px;
 }
@@ -67,26 +29,7 @@ footer {
   cursor: pointer;
 }
 
-/*  
-      }
 
- }
-
-} */
-/*@mixin condicion($font) {
-    font-family: $font;
-
-    @if $font == roboto {
-        color:brown;
-    } @else {
-        color:  blue;
-    }
-
-}
-body{
-    background-color: ghostwhite;
-}
-*/
 .vk {
   background-image: url("../img/IMG_2455-Alfajor-Chocolate-Puro2.jpg");
   background-color: #313335;
@@ -151,11 +94,6 @@ h2 {
   font-weight: bold;
 }
 
-/*  
- @media only screen and (max-width: 968px) {
-    footer {
-        display: none
-    }
-}*/
+
 
 /*# sourceMappingURL=style.css.map */

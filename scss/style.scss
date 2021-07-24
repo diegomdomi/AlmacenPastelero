@@ -15,33 +15,28 @@ h1 {
     @include h1(Dancing Script);
 }
 
-.vk{
+.vk {
     background-image: url(../img/IMG_2455-Alfajor-Chocolate-Puro2.jpg);
 }
+
 .video {
     @extend %video
 }
 
-h2{
+h2 {
     @include h2(roboto)
 }
 
 
 
-.card-title{
-    
-        color: map-get($maps, p);
-        font-weight: map-get($maps , font-weight );
-      
-        }
-    
-    .card-text{
-        font-size: map-get($maps, font-size );
-        font-weight: map-get($maps , font-weight);
-     }
-     /*  
-     @media only screen and (max-width: 968px) {
-        footer {
-            display: none
-        }
-    }*/
+.card-title {
+
+    color: map-get($maps, p);
+    font-weight: map-get($maps, font-weight);
+
+}
+
+.card-text {
+    font-size: map-get($maps, font-size);
+    font-weight: map-get($maps, font-weight);
+}
